@@ -5,3 +5,5 @@ var friends = [
         scores: [1,1,1,1,1,1,1,1,1,1]
     }
 ];
+
+module.exports = friends;
