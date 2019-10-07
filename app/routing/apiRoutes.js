@@ -10,9 +10,11 @@ module.exports = function(app){
         
         console.log(information);
         
-        var scores = information;
+        var scores = information.scores;
 
         console.log(scores);
 
+
+        //Will get back to this for the differences.
     })
 }
