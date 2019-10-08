@@ -1,0 +1,26 @@
+{
+  "name": "Awesome-Friend-Finder",
+  "version": "1.0.0",
+  "description": "Deployed Website: <br>\r https://bryanjacinto1994.github.io/Awesome-Friend-Finder/\r <br>",
+  "main": "server.js",
+  "dependencies": {
+    "express": "^4.17.1",
+    "path": "^0.12.7"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bryanjacinto1994/Awesome-Friend-Finder.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bryanjacinto1994/Awesome-Friend-Finder/issues"
+  },
+  "homepage": "https://github.com/bryanjacinto1994/Awesome-Friend-Finder#readme"
+}
