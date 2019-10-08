@@ -1,4 +1,4 @@
-//Grab the express NPM package
+//Grab the express NPM package and use 'npm install express' on the Terminal/Git Bash
 var express = require('express');
 
 //Make a variable to hold the express function to tell the node that we are creating an express server
