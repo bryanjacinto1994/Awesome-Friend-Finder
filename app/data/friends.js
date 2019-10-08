@@ -1,3 +1,5 @@
+//This hold the friends Array with name, photo, and scores.
+
 var friends = [
     {
         name: 'Shin Chan',
@@ -26,4 +28,5 @@ var friends = [
     },
 ];
 
+//Export the array so it can be required(used) from other files.
 module.exports = friends;
