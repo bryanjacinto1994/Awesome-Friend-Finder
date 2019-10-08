@@ -3,7 +3,7 @@
 ### Links: 
 
 Deployed Website: <br>
-https://immense-inlet-78060.herokuapp.com/
+https://friend-finder-bryanjacinto.herokuapp.com/
 <br>
 
 Github: <br>
