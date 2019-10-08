@@ -12,6 +12,13 @@ https://github.com/bryanjacinto1994/Awesome-Friend-Finder
 
 <hr>
 
+### Screenshots: <br>
+![Site](./Screenshots/survey.png) <br> <br>
+![Site](./Screenshots/survey2.png) <br> <br>
+![Site](./Screenshots/survey1.png) <br> <br> <hr>
+
+<hr>
+
 
 ## Tools Used:
 
