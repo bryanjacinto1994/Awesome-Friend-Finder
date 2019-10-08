@@ -18,5 +18,9 @@ $('#formSubmit').on('click', function(){
             scores: [$("#one").val().trim(), $("#two").val().trim(), $("#three").val().trim(), $("#four").val().trim(), $("#five").val().trim(), $("#six").val().trim(), $("#seven").val().trim(), $("#eight").val().trim(), $("#nine").val().trim(), $("#ten").val().trim()]
         }
     };
+
+    $.post(window.location.origin + '/api/friends', surveyInformation, function(res){
+        
+    })
     
 })
