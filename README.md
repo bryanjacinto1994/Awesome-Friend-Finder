@@ -13,8 +13,12 @@ https://github.com/bryanjacinto1994/Awesome-Friend-Finder
 <hr>
 
 ### Screenshots: <br>
+* Home page: <br> <br>
 ![Site](./Screenshots/survey.png) <br> <br>
+* Survey Page: <br> <br>
 ![Site](./Screenshots/survey2.png) <br> <br>
+
+* Results on Modal on the Survey Page: <br> <br>
 ![Site](./Screenshots/survey1.png) <br> <br> <hr>
 
 <hr>
@@ -50,12 +54,9 @@ https://github.com/bryanjacinto1994/Awesome-Friend-Finder
 * Go into the files where the javascript file is located. <br>
 Run on the Terminal / Gitbash<br>
 ### node server.js:
-Once this command is run, "node server.js", the listener will make a PORT to local host: 8080. Then on the web browser, the following pages should show on the screen.
+Once this command is run, "node server.js", the listener will make a PORT to local host: 8080. Then on the web browser, the screenshots above should show the page on the screen.
 
-![Site](./Screenshots/survey.png) <br> <br>
-![Site](./Screenshots/survey2.png) <br> <br>
-![Site](./Screenshots/survey1.png) <br> <br> <hr>
-
+<hr>
 
 ## Summary
 
@@ -108,7 +109,7 @@ module.exports = function(app){
     
 ```
 
-
+<hr>
 
 
 
@@ -118,3 +119,7 @@ https://www.linkedin.com/in/bryan-jacinto-100438aa/
 
 Github:<br>
 https://github.com/bryanjacinto1994
+<br>
+
+
+<hr>
