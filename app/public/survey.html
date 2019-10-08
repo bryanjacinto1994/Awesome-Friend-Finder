@@ -281,10 +281,34 @@
         </div>
     </div>
 
+     <!-- Modal -->
+     <div class="modal fade" id="exampleModal2" role="dialog" style="text-align: center">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">Your Matches</h5>
+                        <button type="button" class="close" data-dismiss="modal">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <h3 id='surveyMatches'></h3>
+                        <img id="photoMatches" src='' alt='' style='width:300px; height: 300px;'>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+
 
     <script type='text/javascript'>
+    //On click function. This code will be executed when the "Submit" button is clicked.
         $('#formSubmit').on('click', function () {
 
+    //Make a function for form validations.
             function surveyConfirm() {
                 var formValidation = true;
                 $('.form-control').each(function () {
@@ -295,7 +319,7 @@
                 return formValidation;
             }
 
-
+    //Make an if statement if the function is called, the user's survey will be inspected and '.val() will grab the current value of the first element in the set of matched elements.
             if (surveyConfirm()) {
                 var surveyInformation = {
                     name: $('#userName').val(),
@@ -303,15 +327,16 @@
                     scores: [$("#one").val(), $("#two").val(), $("#three").val(), $("#four").val(), $("#five").val(), $("#six").val(), $("#seven").val(), $("#eight").val(), $("#nine").val(), $("#ten").val()]
                 };
 
-                var query = window.location.origin;
-                $.post(query + '/api/friends', surveyInformation, function (res) {
+    //Make a post function via jQuery to get the Users survey information, compares to the friends array matches.
+    //Then a modal will pop up showing the User's friend match.           
+                $.post(window.location.origin + '/api/friends', surveyInformation, function (res) {
                     $('#surveyMatches').text(res.name);
                     $('#photoMatches').attr('src', res.photo);
                     $('#exampleModal').modal('toggle');
                 })
             }
             else {
-                alert('You Must Fill Everything Out Before Clicking Submitting Your Survey')
+                
             }
             return false;
 
