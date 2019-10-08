@@ -14,6 +14,8 @@ module.exports = function(app){
 
         console.log(scores);
 
+        
+
 
         //Will get back to this for the differences.
     })
