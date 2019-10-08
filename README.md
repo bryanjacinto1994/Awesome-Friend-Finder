@@ -3,7 +3,7 @@
 ### Links: 
 
 Deployed Website: <br>
-https://bryanjacinto1994.github.io/Awesome-Friend-Finder/.
+https://bryanjacinto1994.github.io/Awesome-Friend-Finder/
 <br>
 
 Github: <br>
