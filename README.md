@@ -43,11 +43,11 @@ https://github.com/bryanjacinto1994/Awesome-Friend-Finder
 * Go into the files where the javascript file is located. <br>
 Run on the Terminal / Gitbash<br>
 ### node server.js:
-Onnce this command is run, "node server.js", the listener will make a PORT to local host: 8080. Then on the web browser, the following pages should show on the screen.
+Once this command is run, "node server.js", the listener will make a PORT to local host: 8080. Then on the web browser, the following pages should show on the screen.
 
-![Site](screenshots/survey.png) <br> <br>
-![Site](screenshots/survey2.png) <br> <br>
-![Site](screenshots/survey1.png) <br> <br> <hr>
+![Site](./Screenshots/survey.png) <br> <br>
+![Site](./Screenshots/survey2.png) <br> <br>
+![Site](./Screenshots/survey1.png) <br> <br> <hr>
 
 
 ## Summary
