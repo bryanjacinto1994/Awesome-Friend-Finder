@@ -13,6 +13,7 @@ https://github.com/bryanjacinto1994/Awesome-Friend-Finder
 <hr>
 
 ### Screenshots: <br>
+NOTE: (PICTURES IS NOT SHOWING FOR SOME REASON, WILL FIX THIS:)
 * Home page: <br> <br>
 ![Site](./Screenshots/survey.png) <br> <br>
 * Survey Page: <br> <br>
