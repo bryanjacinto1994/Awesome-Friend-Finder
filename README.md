@@ -15,12 +15,12 @@ https://github.com/bryanjacinto1994/Awesome-Friend-Finder
 ### Screenshots: <br>
 NOTE: (PICTURES IS NOT SHOWING FOR SOME REASON, WILL FIX THIS:)
 * Home page: <br> <br>
-![Site](./Screenshots/survey.png) <br> <br>
+![Site](Screenshots/Survey.png) <br> <br>
 * Survey Page: <br> <br>
-![Site](./Screenshots/survey2.png) <br> <br>
+![Site](Screenshots/Survey2.png) <br> <br>
 
 * Results on Modal on the Survey Page: <br> <br>
-![Site](./Screenshots/survey1.png) <br> <br> <hr>
+![Site](Screenshots/Survey1.png) <br> <br> <hr>
 
 <hr>
 
